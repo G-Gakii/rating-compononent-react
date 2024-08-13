@@ -1,0 +1,29 @@
+/* - Orange: hsl(25, 97%, 53%)
+
+### Neutral
+
+- White: hsl(0, 0%, 100%)
+- Light Grey: hsl(217, 12%, 63%)
+- Dark Blue: hsl(213, 19%, 18%)
+- Very Dark Blue: hsl(216, 12%, 8%) */
+@import url("https://fonts.googleapis.com/css2?family=Overpass:ital@0;1&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(216, 12%, 8%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: "Overpass", sans-serif;
+}
+.container {
+  background-color: hsl(213, 19%, 18%);
+  max-width: 400px;
+  height: auto;
+  margin: 1rem;
+  border-radius: 10px;
+}

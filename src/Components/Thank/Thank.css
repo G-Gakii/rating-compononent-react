@@ -1,0 +1,24 @@
+.thank_container {
+  
+  padding: 2rem;
+  text-align: center;
+}
+.thank_container img {
+  margin-bottom: 1rem;
+}
+.thank_container p {
+  color: hsl(217, 12%, 63%);
+  margin-bottom: 1rem;
+}
+.thank_container button {
+  width: 100%;
+  padding: 1rem 0;
+  border: none;
+  outline: none;
+  background-color: hsl(25, 97%, 53%);
+  border-radius: 20px;
+  text-transform: uppercase;
+}
+.thank_container button:hover {
+  background-color: #fff;
+}
